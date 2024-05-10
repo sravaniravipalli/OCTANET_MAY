@@ -1,0 +1,264 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Trebuchet Ms','Lucida Sans Unicode','Lucida Grande','Lucida sams',Arial,sans-serif;
+    box-sizing:border-box;
+
+}
+body {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-family: sans-serif;
+
+    line-height: 1.5;
+
+    min-height: 100vh;
+
+    background: #f3f3f3;
+
+    flex-direction: column;
+
+    margin: 0;
+}
+ 
+.main {
+
+    background-color: #fff;
+
+    border-radius: 15px;
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+    padding: 10px 20px;
+
+    transition: transform 0.2s;
+
+    width: 500px;
+
+    text-align: center;
+}
+ 
+
+h1 {
+
+    color:black;
+}
+ 
+label {
+
+    display: block;
+
+    width: 20%;
+
+    margin-top: 10px;
+
+    margin-bottom: 5px;
+
+    text-align: left;
+
+    color: #555;
+
+    font-weight: bold;
+}
+ 
+ 
+input {
+
+    display: block;
+
+    width: 20%;
+
+    margin-bottom: 15px;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #ddd;
+
+    border-radius: 5px;
+}
+ 
+button {
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    margin-top: 15px;
+
+    margin-bottom: 15px;
+
+    border: none;
+
+    color: white;
+
+    cursor: pointer;
+
+    background-color:black;
+
+    width: 20%;
+
+    font-size: 16px;
+}
+ 
+.wrap {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+html.body{
+    width:100%;
+    height:100%;
+}
+#main{
+    width:100%;
+   min-height:100vh;
+}
+.top{
+    width:100%;
+    min-height:60vh;
+    background-image: url(https://img.freepik.com/premium-vector/programming-concept_1302-14727.jpg?w=900);
+    background-size: cover;
+    background-position: center;
+ } 
+ .b2 t2{
+    text-align:center;
+    padding:30px;
+}
+ .top .overlay{
+    position:relative;
+    width:100%;
+   min-height:inherit;
+background-color:rgba(255, 251, 205, 0.466);
+ }
+ .text{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:absolute;
+    width:100%;
+    padding:0 10vh;
+    color:rgb(0, 0, 0);
+    bottom:5%; 
+ }
+ 
+ .text h2{
+    font-weight: 600;
+    font-size:4vw;
+    width:30%;
+min-height:inherit;
+ }
+ 
+ .rtext{
+    display:flex;
+    width:25%;
+    justify-content:space-between;
+    align-items:center;
+ }
+ .rtext h1{
+    font-size: 20px;
+ }
+.bottom{
+    display:flex;
+    width:100%;
+    min-height:40vh;
+}
+.b1{
+width:30%;
+min-height:inherit;
+background-image: url(https://staging.herovired.com/wp-content/uploads/2023/02/Frontend-Technologies.webp);
+background-size: cover;
+background-position: center;
+}
+.b1 h1{
+    text-align:center;
+    padding:30px;
+}
+
+.b2{ 
+    width:40%;
+    min-height:inherit;
+background-image: url(https://www.finoit.com/wp-content/uploads/2023/03/best-backend-technologies.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.b3{
+    width:40%;
+    min-height: inherit;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/02/85/11/01/1000_F_285110178_yUj7sFp89xPArBzrUnZ1qGP0TPLnDwr2.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left:50% ;
+    width:50%;
+    height:100%;
+    padding:4vw 3vh;
+}
+.b3 .overlay p{
+padding:1.2vh;
+}
+@media(max-width:700px){
+    .rtext{
+        flex-direction: column;
+    }
+    .b3 .overlay{
+        width:100%;
+        margin-left:initial;
+    }
+}
+@media(max-width:500px){
+    .text{
+    flex-direction: column;
+    align-items:flex-start;
+}
+.text h1{
+    font-size:5vh;
+}
+.text .image{
+   height: 200px; 
+   width: 140px;
+   margin-top: 20px;
+}
+.rtext{
+    flex-direction:column;
+    align-items: flex-start;
+}
+.rtext p{
+    margin-top: 10px;
+}
+.icons{
+    margin-top: 10px;
+}
+.bottom{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.b1{
+width:100%;
+min-height: 30vh;
+}
+.b2{
+width:100%;
+}
+.b2 .up{
+    min-height: 40vh;
+}
+.b3{
+width:100%;
+min-height: 30vh;
+background-position: left;
+}
+}
